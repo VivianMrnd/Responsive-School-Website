@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+header{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(26, 24, 24, 0.69),rgba(22, 21, 21, 0.69)),url(image/School.jpeg);
+    background-size: cover;
+    background-position:center;
+}
+.navbar-brand img{
+    height: 100px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-size:20px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    border: none;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgb(10, 8, 8);
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: bold;
+    background-color: rgb(168, 66, 66);
+}
+
+.submit{
+    margin-left: 36%;
+}
+.jumbotron{
+    text-align: center;
+}
+
+.btn-full:link,
+.btn-full:active{
+    background-color: rgb(10, 8, 8);
+    transition: 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: rgb(10, 8, 8);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid black;
+    color: rgb(10, 8, 8);
+    transition: 0.5s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color:rgb(10, 8, 8);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.display-4{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#gallery{
+    min-height: 150vh;
+    background-image:linear-gradient(rgba(26, 24, 24, 0.69),rgba(22, 21, 21, 0.69)),url(image/students.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.gallery{
+    background-color: darkgray;
+    -webkit-box-shadow: -1px 3px 21px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 21px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 21px 1px rgba(0,0,0,0.75);
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+hr{
+    border: 2px solid #fff;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(105, 91, 72);
+}
+
+.gallery-body p{
+    font-size: small;
+}
+
+.gallery{
+   margin-top: 40px;
+   height: 90%; 
+}
+.gallery img{
+    height: 200px;
+}
+
+.col-gallery{
+    margin-bottom: 20px;
+}
+
+#aboutus{
+    height: 220vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.74));
+    background-size: cover;
+    background-position:center;
+}
+
+.admins{
+    border: none;
+    margin-top: 40px;
+}
+
+.admins img{
+    height: 200px;
+}
+
+.admin-body{
+    text-align: center;
+}
+
+h4{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+footer{
+    min-height: 10vh;
+    background-color: rgb(24, 32, 32);
+}
+
+.ft{
+    color: #fff;
+    font-size: 60%;
+    padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.ft2{
+    font-size: 90%;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.ft2 i{
+    font-size: 100%;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.rtbutton{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+}
+.rtbutton a:link,
+.rtbutton a:visited
+{
+   color: #fff;
+}
+
+@media(width: 320px) {
+    
+    .navs{
+        background-color: #0b1b27;
+    }
+    .nav-link{
+        text-transform: uppercase;
+        font-size:13px;
+        letter-spacing: 1px;
+        transition: 0.5s;
+    }
+    .jumbotron{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .header-text{
+        font-size: 1rem;
+    }
+
+    #aboutus{
+        min-height: 620vh;
+    }
+    .ft2{
+        font-size: 66%;
+        text-align: center;
+    }
+
+    .ft2 i{
+        font-size: 70%;
+        color: #fff;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:321px) and (max-width: 820px){
+    .navs{
+        background-color: #0b1b27;
+    }
+    .nav-link{
+        text-transform: uppercase;
+        font-size:13px;
+        letter-spacing: 1px;
+        transition: 0.5s;
+    }
+    .jumbotron{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .header-text{
+        font-size: 2rem;
+    }
+
+    #aboutus{
+        min-height: 517vh;
+    }
+    .ft2{
+        font-size: 75%;
+        text-align: center;
+    }
+
+    .ft2 i{
+        font-size: 70%;
+        color: #fff;
+        margin-right: 10px;
+    }
+}
